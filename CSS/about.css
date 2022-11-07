@@ -1,0 +1,113 @@
+/* BG */
+.background_about
+{
+    position: absolute;
+    z-index: -1;
+    right:30px;
+
+}
+.background_about img
+{
+    width: 1450px;
+    height: 2300px;
+    margin-bottom: 100px;
+}
+/* A */
+.About_title
+{
+    margin-right: 490px;
+    font-size: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.A_index
+{
+    margin-left: 130px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.warehouseImg
+{
+    width: 450px;
+    height: 300px;
+}
+
+.txt_A
+{
+    font-size: 18px;
+    font-weight: 600;
+    width:600px;
+    line-height: 30px;
+}
+/* B */
+.title_B
+{
+    margin:120px auto 0px 150px;
+    font-size: 40px;
+}
+.txt_B
+{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 230px;
+    left:270px;
+    font-size: 18px;
+}
+#big{
+    font-size: 20px;
+}
+.B_img
+{
+    text-align: center;
+}
+.B_bigImg
+{
+    width: 1100px;
+    height:350px;
+}
+
+.B_smallImg
+{
+    width:530px;
+}
+
+.locationImg
+{
+    margin: 30px 155px;
+    width:1100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+/* C */
+.section_C
+{
+    width: 1000px;
+    margin: 120px auto 300px 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gameplay_txt
+{
+    display:flex;
+    flex-direction:column ;
+    text-align: center;
+}
+ 
+.creepingGif img
+{
+    width: 700px;
+}
+
+.gameplay_txt h2
+{
+    font-size: 50px;
+}
+#dont
+{
+    font-size: 20px;
+}

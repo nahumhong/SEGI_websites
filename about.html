@@ -6,40 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SEGI | About</title>
         <link rel="icon" href="img/SEGI Icon.png">
+        <link rel="stylesheet" href="CSS/normalize.css"> 
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/about.css">
     </head>
     <body>
         <header>          
             <!--上排黃色警告線-->
             <div class="content">     
-                <img scr="img/yellowline_top.png" alt="yellowline_top">
+                <img src="img/yellowlineUp.png" alt="yellowline_top">
             </div>              
-            <!--導覽-->
-            <div class="navigation">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="news.html">News</a>
-                </nav>
-            </div>
+        
         </header>
         <main>
+            <!-- BG -->
+            <div class="background_about">
+                <img src="./img/segi_background2.png" alt="BG">
+            </div>
+            <!-- nav -->
+            <nav class="navigation">
+                <a href="index.html" class="Home" >Home</a>
+                <a href="about.html" class="About">About</a>
+                <a href="news.html" class="News">News</a>
+            </nav>
             <!--section_A-->
-            <div class="section_A">
                 <!--About標題文-->
-                <div class="title_A">
+                <div class="About_title">
                     <h2>About</h2>
                 </div>
-                <div class="aboutImg">
-                    <img scr="img/warehouse.png" alt="warehouseImg" class="warehouseImg">
+                <div class="A_index">
+                    <div class="aboutImg">
+                        <img src="img/warehouse.png" alt="warehouseImg" class="warehouseImg">
+                    </div>
+                    <div class="txt_A">
+                        <p>地球在人類的破壞之下，糧食短缺問題愈加嚴重。
+                            未來世界中，科技日漸進步。人類依賴科學的能力，以基因改造的方式來種植和培育糧食，且致力培育出能比天然栽培更加容易量產、食用也更加營養的基改食物。</p>
+                        <p>SEGI 公司是從事基改糧食的一家玉米罐頭公司。某天，SEGI公司研發中的糧食被野生的老鼠偷吃，逐漸影響整個生物圈發生了基因突變。</p>
+                        <p>作為 SEGI 公司老闆的主角例行探查工廠，看見工廠內，四周散落著一些血跡和人類的肢體，不料忽然被一隻怪物攻擊，醒來時便發現自己的雙腳竟被替換拼接上了其他人的腳，無法動彈。</p>
+                    </div>
                 </div>
-                <div class="txt_A">
-                    <p>地球在人類的破壞之下，糧食短缺問題愈加嚴重。
-                        未來世界中，科技日漸進步。人類依賴科學的能力，以基因改造的方式來種植和培育糧食，且致力培育出能比天然栽培更加容易量產、食用也更加營養的基改食物。</p>
-                    <p>SEGI 公司是從事基改糧食的一家玉米罐頭公司。某天，SEGI公司研發中的糧食被野生的老鼠偷吃，逐漸影響整個生物圈發生了基因突變。</p>
-                    <p>作為 SEGI 公司老闆的主角例行探查工廠，看見工廠內，四周散落著一些血跡和人類的肢體，不料忽然被一隻怪物攻擊，醒來時便發現自己的雙腳竟被替換拼接上了其他人的腳，無法動彈。</p>
-                </div>
-
-            </div>
             <!--section_B-->
             <div class="section_B">
                 <!--Location標題文-->
@@ -50,15 +55,17 @@
                 <!--地點圖，大張的-->
                 <div class="txt_B">
                     <p> SEGI 的故事地點設定為 Segi 公司内部。</p>
-                    <p>主角身受重傷但卻不得不趕快逃離這可怕的工廠。</p> 
+                    <p id="big">主角身受重傷但卻不得不趕快逃離這可怕的工廠。</p> 
                 </div>
-                <div class="corridorImg">
-                    <img src="img/corridor.png" alt="corridorImg">
-                </div>
-                <!--地點圖，小張的-->
-                <div class="locationImg">
-                    <img src="img/office.jpg" alt="officeImg">
-                    <img src="img/pipeline.jpg" alt="pipelineImg">
+                <div class="B_img">
+                    <div class="corridorImg">
+                        <img src="img/corridor.png" alt="corridorImg" class="B_bigImg">
+                    </div>
+                    <!--地點圖，小張的-->
+                    <div class="locationImg">
+                        <img src="img/office.jpg" alt="officeImg" class="B_smallImg">
+                        <img src="img/pipeline.jpg" alt="pipelineImg"  class="B_smallImg">
+                    </div>
                 </div>
 
             </div>
@@ -69,12 +76,12 @@
                     <img src="img/creeping.gif" alt="creepingGif">
                 </div>
                 <!--Gameplay標題文-->
-                <div class="title_C">
+                <div class="gameplay_txt">
                     <h2>Gameplay</h2>
-                </div>
-                <div class="txt_C">
-                    <p>你需要透過爬行的方式爬出工廠</p>
-                    <p>切記別被怪物發現！</p>
+                    <div class="txt_C">
+                        <p>你需要透過爬行的方式爬出工廠</p>
+                        <p id="dont">切記別被怪物發現！</p>
+                    </div>
                 </div>
             </div>
         </main>
@@ -83,7 +90,7 @@
             <div class="bottom">
                 <p>創意設計(一) 第八組專題網頁</p>
                 <!--下排黃色警告線-->
-                <img scr="img/yellowline_bottom.png" alt="yellowline_bottom">
+                <img src="img/yellowlineDown.png" alt="yellowline_top" class="topimg">
             </div>
         </footer>
     </body>
