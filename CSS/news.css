@@ -1,0 +1,44 @@
+/* title */
+.title_D
+{
+    margin: 100px auto 30px 50px;
+}
+.title_D h1{
+    font-size: 50px;
+}
+.txt_D
+{
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.txt_D p{
+    font-size: 20px;
+}
+/* sideimg */
+.leftImg 
+{
+    overflow: hidden;
+    width:70px;
+    height:700px;
+}
+
+.rightImg 
+{
+    overflow: hidden;
+    width:70px;
+    height:700px;
+}
+/* 01 */
+.demo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-bottom: 180px;
+    width: 1200px;
+}
+.video iframe
+{
+    width: 1000px;
+    height: 700px;
+}
