@@ -6,39 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SEGI | Home</title>
         <link rel="icon" href="img/SEGI Icon.png">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/nav.css">
+        <link rel="stylesheet" href="CSS/BG.css">
+        <link rel="stylesheet" href="CSS/footer.css">
     </head>  
     <body>
         <header>
             <!--上排黃色警告線-->
             <div class="content">     
-                <img scr="img/yellowline_top.png" alt="yellowline_top">
+                <img src="img/yellowlineUp.png" alt="yellowline_top" class="topimg">
             </div>   
-            <!--導覽-->
-            <div class="navigation">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="news.html">News</a>
-                </nav>
-            </div>
+          
         </header>
+
         <main>
+            <!-- BG -->
+            <div class="background">
+                <img src="./img/segi_background1.png" alt="BG">
+            </div>
+            <!-- nav -->
+            <nav class="navigation">
+                <a href="index.html" class="Home" >Home</a>
+                <a href="about.html" class="About">About</a>
+                <a href="news.html" class="News">News</a>
+            </nav>
             <!--SEGI Logo-->
             <div class="section_01">
                 <img src="img/logo.png" alt="" class="logoImg">
             </div>
             <!--游戲首頁圖-->
-            <div class="section_02">
                 <div class="mainmenu">
                     <img src="img/segi.jpg" alt="" class="titleImg">
+                    <div class="txt_02">
+                        <div class="GameType">
+                            <h3>游戲類型</h3>
+                            <p>生存/恐怖</p>
+                        </div>
+                        <div class="Media">
+                            <h3>游戲媒材</h3>
+                            <p>硬 & 軟體結合單機游戲</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="txt_02">
-                    <h3>游戲類型</h3>
-                    <p>生存/恐怖</p>
-                    <h3>游戲媒材</h3>
-                    <p>硬 & 軟體結合單機游戲</p>
-                </div>
-            </div>
             <!--可跳頁的資訊欄-->
             <div class="section_03">
                 <!--about排左邊-->
@@ -62,7 +73,7 @@
             <div class="bottom">
                 <p>創意設計(一) 第八組專題網頁</p>
                 <!--下排黃色警告線-->
-                <img scr="img/yellowline_bottom.png" alt="yellowline_bottom">
+                <img src="img/yellowlineDown.png" alt="yellowline_top" class="topimg">
             </div>
         </footer>
     </body>
