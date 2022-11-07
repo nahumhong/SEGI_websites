@@ -46,6 +46,7 @@ body
     display: flex;
     justify-content: space-around;
     width:370px;
+    width:380px;
     font-size: 30px;
     text-shadow: 0px 1.2px 0px #643434;
 }
