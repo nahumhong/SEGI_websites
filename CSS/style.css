@@ -46,7 +46,6 @@ body
     display: flex;
     justify-content: space-around;
     width:370px;
-    width:380px;
     font-size: 30px;
     text-shadow: 0px 1.2px 0px #643434;
 }
@@ -88,7 +87,7 @@ body
 .txt_02
 {
     margin-top: 100px;
-    font-family: Impact;
+    font-family: Inter;
 }
 .txt_02 h3
 {
